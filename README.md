@@ -1,7 +1,7 @@
 # Flood Detection System
 
 This project is a Python-based tool for automatic flood extent extraction from pre- and post-disaster satellite images. It integrates multiple image processing algorithms and machine learning techniques, including Isolation Forest anomaly detection, 16 automatic Threshold Segmentation Methods (TSMs), and the Segment Anything Model (SAM) for precise segmentation, enabling efficient and accurate disaster area identification with visualization capabilities.
-
+Download pre-/post-disaster example data and SAM checkpoints from: https://drive.google.com/drive/folders/1gSYvmGVykqwkja6svvRNM7HBT6XF43Ek
 ## Core Modules
 - Data Preprocessing Module: read and process multi-temporal remote sensing images, and compute change detection features.
 - Anomaly Detection Module: calculate normalized anomaly scores using the Isolation Forest algorithm.
@@ -199,4 +199,5 @@ acc, precision, recall, f1 = PrecisionValidation(
     Prediction_raster_path=output_paths['Merge'],
     GroundTruth_output_tif_path='output/ground_truth.tif'
 )
+
 ```
