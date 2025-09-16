@@ -141,13 +141,6 @@ Install all dependencies with:
 pip install -r requirements.txt
 ```
 
-## Model Weights
-Download the SAM model weights (e.g., sam_hq_vit_tiny.pth) and place them in the `pretrained_checkpoint/` directory. You can use the provided script:
-```bash
-download_sam_weights.bat
-```
-Or download manually from the official [SAM-HQ repository](https://github.com/SysCV/sam-hq).
-
 ## Usage
 1. Prepare your data:
    - Pre-flood satellite image (GeoTIFF)
@@ -201,4 +194,5 @@ acc, precision, recall, f1 = PrecisionValidation(
 )
 
 ```
+
 
