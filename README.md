@@ -99,7 +99,7 @@ Integrated flood detection results combining TSM and SAM.
     - Example: 'output'.
 - `texture_bands` (optional): Texture bands to be used (if applicable). Example: None (indicates no texture features will be used; currently not used in main pipeline).
 
-## 6. Output Results and Accuracy Assessment
+##  Output Results and Accuracy Assessment
 - **Intermediate Results:**
     - Anomaly scores computed by Isolation Forest
     - Individual flood detection results from 16 TSMs
@@ -201,3 +201,4 @@ acc, precision, recall, f1 = PrecisionValidation(
 )
 
 ```
+
